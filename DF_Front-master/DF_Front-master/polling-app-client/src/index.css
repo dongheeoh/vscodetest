@@ -1,0 +1,84 @@
+body {
+  
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.center{
+  width : 100%;
+  text-align: center;
+  padding :20px;
+  margin:15px;
+
+}
+.main{
+  display: inline-block;
+  width : 70%;
+  margin-right: 200px;
+}
+
+.ant-fullcalendar-header{
+  border-width: 1px;
+  border-style: solid;
+  border-color: #E5E5E5;
+  border-bottom-width: 0px;
+}
+
+.ant-fullcalendar-calendar-body{
+  border-width: 1px;
+  border-style: solid;
+  border-color: #E5E5E5;
+}
+.ant-table-wrapper{
+  border-width: 1px;
+  border-style: solid;
+  border-color: #E8E8E8;
+}
+.information{
+  margin-bottom: 5px;
+}
+.Option2,.Option3,.Option4,.Option5,.Option6,.Option7,.Option8{
+  text-align: left;
+}
+.ant-btn.Nopass.ant-btn-primary{
+  background-color: #ED1B24;
+  border-color: #ED1B24;
+}
+
+.ant-input-group.ant-input-group-compact{
+  width: 100%;
+}
+input.up:hover, input.up:focus, input.up:visited {
+  pointer-events: none;
+  border-color: #D9D9D9 ;
+  box-shadow: none;
+}
+.ant-alert.ant-alert-info.ant-alert-no-icon{
+  margin-top: 1em;
+}
+.submit{
+margin-top: 64px;
+text-align: right;
+}
+
+.MuiExpansionPanelDetails-root-98{
+  border-width: 1px;
+  border-style: solid;
+  border-color: #E8E8E8;
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.7em;
+  }
+}
